@@ -1,0 +1,66 @@
+body {
+    background: #2D2D2D;
+    color: #E69138;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+p {
+    font-size: 26px;
+}
+span.field {
+    font-size: 20px;
+    font-weight: normal;
+}
+.landing {
+    text-align: center;
+    .welcome {
+        font-size: 80px;
+    }
+    button {
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        padding: 30px 70px;
+        font-size: 25px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background-color 2s ease, color 2s ease;
+        color: #F7D7B5;
+    }
+    .about-button {
+        border-radius: 10px 0 0 10px;
+    }
+    .projects-button {
+        border-radius: 0 10px 10px 0;
+    }
+    .active {
+        background: #351C75;
+        color: #E69138;
+    }
+    .buttons-div {
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 600px) {
+    p, span.field {
+        font-size: 15px;
+    }
+    .landing {
+        .welcome {
+            font-size: 70px;
+        }
+        .about-button {
+            border-radius: 12px 0 0 12px;
+        }
+        button {
+            padding: 20px;
+            font-size: 12px;
+        }
+        .buttons-div {
+            white-space: nowrap;
+            margin: 5%;
+        }
+    }
+}

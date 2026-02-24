@@ -1,0 +1,32 @@
+.menu {
+    background: #F7D7B5;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 100px;
+    }
+    .menu-items {
+        display: flex;
+        font-size: 1.7rem;
+        gap: 30px;
+    }
+    a {
+        color: #E69138;
+        font-size: 20px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #351C75;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu .menu-items {
+        gap: 20px;
+    }
+}

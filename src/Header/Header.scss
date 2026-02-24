@@ -1,0 +1,48 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10% 3% 10%;
+    background: #F7D7B5;
+    height: 400px;
+}
+
+
+.content {
+    max-width: 50%;
+    color: #351C75;
+    h1 {
+        font-size: 70px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+
+.skills {
+    font-size: 1.7rem;
+    color: #E69138;
+}
+
+.computer-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        display: block;
+        height: 100%;
+        .content {
+            max-width: 100%;
+            h1 {
+                font-size: 50px;
+                padding-top: 10%;
+            }
+            .skills {
+                font-size: 13px;
+                white-space: nowrap;
+            }
+        }
+    }
+}
