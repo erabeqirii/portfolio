@@ -4,5 +4,6 @@ This is my personal portfolio website built with React, where I showcase my proj
 
 ## To run this project locally, follow these steps:
 
-## npm install
-## npm start
+npm install
+
+npm start
