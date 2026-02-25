@@ -6,8 +6,11 @@ This is my personal portfolio website built with React, where I showcase my proj
 
 ## 🚀 Tech Stack
 React
+
 JavaScript (ES6+)
+
 HTML & SCSS
+
 Hosted on Vercel
 
 ---
