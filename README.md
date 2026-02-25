@@ -17,4 +17,5 @@ Hosted on Vercel
 
 ## To run this project locally, follow these steps:
 npm install
+
 npm start
