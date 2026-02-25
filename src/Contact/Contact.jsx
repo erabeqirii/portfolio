@@ -11,11 +11,12 @@ const Contact = () => {
            <p><span className="field">Phone Number:</span> +38348118678</p>   
       </div>
       <div className='socials'>
-        <a href="https://www.linkedin.com/in/era-beqiri-988845226/" target="_blank"><img src={LinkedIn}/></a>
-        <a href="https://github.com/erabeqirii" target="_blank"><img src={GitHub} /></a>
+        <a href="https://www.linkedin.com/in/era-beqiri-988845226/" target="_blank" rel="noreferrer"><img src={LinkedIn} alt="LinkedIn"/></a>
+        <a href="https://github.com/erabeqirii" target="_blank" rel="noreferrer"><img src={GitHub} alt="Github"/></a>
       </div>
     </div>
   )
 }
+
 
 export default Contact;
