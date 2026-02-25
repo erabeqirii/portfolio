@@ -2,7 +2,7 @@
 
 This is my personal portfolio website built with React, where I showcase my projects, skills, and design work.
 
----
+
 
 ## 🚀 Tech Stack
 React
@@ -13,7 +13,7 @@ HTML & SCSS
 
 Hosted on Vercel
 
----
+
 
 ## To run this project locally, follow these steps:
 npm install
